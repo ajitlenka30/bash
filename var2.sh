@@ -1,4 +1,4 @@
-#! bin\bash
+#! /bin/bash
 
 <<end
 to use cmd in a var we needed $(inside cmd)

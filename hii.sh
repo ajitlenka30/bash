@@ -1,3 +1,5 @@
-#! \bin\bash\
+#! /bin/bash
 
 echo "hiii"
+
+echo "hiiiii"
