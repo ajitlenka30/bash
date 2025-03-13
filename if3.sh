@@ -24,4 +24,17 @@ fi
 
 total=$(( math + odia + eng + his ))
 
+if [[ $total -gt 300 ]]
+then
+    echo "grade a"
+elif [[ $total -gt 250 ]]
+then
+    echo "grade b"
+elif [[ $total -gt 200 ]]
+then
+    echo "grade c"
+else
+    echo "faill ho geya bkl grade f"
+fi
+
 echo "total marks is :-  $total"
